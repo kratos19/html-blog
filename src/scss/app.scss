@@ -1,5 +1,8 @@
-body {
-    main {
-        display: none;
-    }
-}
+// import libraries
+@import 'libraries';
+
+// import partials
+@import 'partials/header';
+
+// import pages
+@import 'pages/home';
